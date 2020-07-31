@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-// const dotenv = require('dotenv');
+const dotenv = require('dotenv');
 
 const app = require('./app');
 const server = require('http').Server(app);
@@ -170,7 +170,7 @@ io.on('connection', (socket) => {
     });
 });
 
-// dotenv.config({path: './config.env'});
+dotenv.config({path: './config.env'});
 
 const {HOST_ADDRESS ,PORT, MONGO_DB} = process.env;
 console.log(MONGO_DB);
