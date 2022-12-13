@@ -13,7 +13,7 @@
     "bcryptjs": "^2.4.3",
     "body-parser": "latest",
     "crypto": "^1.0.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "google-auth-library": "^6.0.5",
     "mongoose": "^5.9.24",
     "nodemon": "^2.0.4",
